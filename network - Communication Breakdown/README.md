@@ -2,7 +2,7 @@
 
 >"I can't do it anymore", thought Twardowski. "Being a prisoner is one thing, I can handle being alone. But these attacks... I don't deserve this. I'm still suffering from a stupid mistake I made two centuries ago..."
 
-Given: `communication_breakdown.pcapng` file shall be opened by Wireshark tool for ...
+Given: `communication_breakdown.pcapng` file shall be opened by Wireshark - the world’s foremost network protocol analyzer. 
 This is a record of ~7seconds communication beween two hosts. We can see there following steps:
 - login procedure to some ftp server (port 21 - FTP control)
 - request of a `flag.zip` file
@@ -23,7 +23,10 @@ Yup, file is encrypted and we don't know the password so our last hope is brutef
 - `-D` - use a dictionary
 - `-p rockyou.txt` - publicly available list of common passwords ~14 000 000
 - `-u` -  use unzip
+and the outhput was:
+![](img/4.png)
 
+And that's how to get the first flag: `CURSEDNOVA{FtP_N0t_s0_s4f3_oops}`
 
 
 
