@@ -6,11 +6,10 @@ We have a description and a hint: `If you found 2 out of 3, try 4.2.2.1.` given.
 
 You can notice TLDR written TLDr - TLD stands for Top Level Domain. Everything looks like wee need to find 3 domains. 
 <!-- First, I set my DNS to 4.2.2.1 -->
-I used `godaddy.com` to search for reserved `cursednova domains` and found three which match the plot:
+I used `godaddy.com` to search for reserved `cursednova domains` and found three which match the plot (all created 6th of May by SecuRing):
 - `cursednova.space`
 - `cursednova.fun`
 - `cursednova.click`
-All created 6th of May by SecuRing.
 
 As there was nothing served on these domains (`nmap` shows all ports are closed), I used `dnsdumpster.com` to search for any dns records and... found TXR records:
 - "\"You are on the right track!\" - l__k __r __e __b__m__n_"
@@ -19,10 +18,13 @@ As there was nothing served on these domains (`nmap` shows all ports are closed)
 `lok for the subdomains`, ok but how? 
 Tried many ways for domain enumerations: `dig`, `nslookup`, some online webscanners gave no results.
 Finally found a `subbrute` script: [subbrute](https://github.com/TheRook/subbrute) which needed to be run few times for each domain to finally found a desired subdomain:
-- `portal.cursednova.space`
+- `python3 subbrute.py cursednova.space --type TXT` - `portal.cursednova.space`
+- `python3 subbrute.py cursednova.fun --type TXT` - found nothing
+- `python3 subbrute.py cursednova.click --type TXT` - `gatekeeper.cursednova.click` 
+
+Tried again `dnsdumpster.com` to check TXT records but no luck, `dig` found :
+- `portal.cursednova.space` - `dig portal.cursednova.space TXT` - "70m_w41k32}"
 - `cursednova.fun` - found nothing
-- `gatekeeper.cursednova.click` 
+- `gatekeeper.cursednova.click` - `dig gatekeeper.cursednova.click TXT` - "CURSEDNOVA{7h3_"
 
-Tried again `dnsdumpster.com` to check TXT records but no luck, 
-
-CURSEDNOVA{}
+CURSEDNOVA{7h3_ 70m_w41k32}
