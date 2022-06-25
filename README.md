@@ -24,7 +24,7 @@ Write-ups of CursedNova CTF challenges.
 | web         | Mindblown               | :heavy_check_mark: solved |                             |  |
 | web         | Market brawl            | :heavy_check_mark: solved |                             |  |
 | web         | The Devil               | :heavy_check_mark: solved |                             |  |
-| web         | The Return              | :heavy_check_mark: solved |                             |  |
+| web         | The Return              | :heavy_check_mark: solved | :heavy_check_mark: uploaded | #compress #decode |
 | web         | Gravity                 | :heavy_check_mark: solved |                             |  |
 | web         | The hidden entry        | :heavy_check_mark: solved |                             |  |
 | web         | Dark Matter             | :heavy_check_mark: solved |                             |  |
