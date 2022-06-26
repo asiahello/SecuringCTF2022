@@ -24,4 +24,4 @@ It didn't seem familiar to known steganography challenges and any common tool wa
 Volia! I need to repeat experiment twice to catch all singals but this is the effect:
 ![](img/4.png)
 
-Flag: CURSEDNOVA.STOP.THE.WAR
+Flag: CURSEDNOVA.STOP THE WAR.
