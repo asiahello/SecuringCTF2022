@@ -21,6 +21,7 @@ This is a part of `War of the Worlds` radio broadcast (with quite interesting [s
 
 It didn't seem familiar to known steganography challenges and any common tool was not helpful to decode the stream. Long time spent on guessing correct parameters of `minimodem` and `Universal Radio Hacker` made it clear that this was not the right way. So I decided to use the hint: `Modulation: 8-FSK, keying rate = 6.25 baud; tone spacing = 6.25 Hz Message length: 75 bits + 12-bit CRC Sequence length: 15 s` which caused this challenge even more confusing. Nothing fit together, except `length: 15s` - beep length, so I just google'd it. And... it was no a hint that describes given file, but a `WSJT-X` program implements many communication protocols (including FT8). By reading manual and watching YT videos, it became clear that this was about decoding radio communication. Opening a file in this program didn't work, so tried to simulate radio communication by playing the file through speakers and listen for microphone:
 ![](img/3.png)
+
 Volia! I need to repeat experiment twice to catch all singals but this is the effect:
 ![](img/4.png)
 
