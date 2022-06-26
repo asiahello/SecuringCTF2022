@@ -7,7 +7,7 @@ Write-ups of CursedNova CTF challenges.
 | network     | Trademark               | :heavy_check_mark: solved | :heavy_check_mark: uploaded | #dns              |
 | network     | Cipher suite            | :x: unresolved            |                             |  |
 | misc        | Paint the sky           | :heavy_check_mark: solved |                             |  |
-| misc        | Message                 | :heavy_check_mark: solved |                             |  |
+| misc        | Message                 | :heavy_check_mark: solved | :heavy_check_mark: uploaded | #radio #steganography |
 | programming | Manual                  | :heavy_check_mark: solved |                             |  |
 | programming | Sensors                 | :heavy_check_mark: solved |                             |  |
 | programming | Navigation              | :heavy_check_mark: solved |                             |  |
