@@ -8,8 +8,8 @@ Write-ups of CursedNova CTF challenges.
 | network     | Cipher suite            | :x: unresolved            |                             |  |
 | misc        | Paint the sky           | :heavy_check_mark: solved | :heavy_check_mark: uploaded | #encryption |
 | misc        | Message                 | :heavy_check_mark: solved | :heavy_check_mark: uploaded | #radio #steganography |
-| programming | Manual                  | :heavy_check_mark: solved |                             |  |
-| programming | Sensors                 | :heavy_check_mark: solved |                             |  |
+| programming | Manual                  | :heavy_check_mark: solved | :heavy_check_mark: uploaded | #programming |
+| programming | Sensors                 | :heavy_check_mark: solved | :heavy_check_mark: uploaded |  |
 | programming | Navigation              | :heavy_check_mark: solved | :heavy_check_mark: uploaded | #algoritms #socket |
 | web         | Welcome to CursedNova   | :heavy_check_mark: solved |                             |  |
 | web         | Hidden Universe         | :heavy_check_mark: solved |                             |  |
