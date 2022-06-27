@@ -15,8 +15,8 @@ e.amazonaws.com 10000`
 Here we see a [proof-of-work](https://en.wikipedia.org/wiki/Proof_of_work) computation needs to be done before we get the next part. So, opened another console window, run given script and copy paste response. As a  reward I got another riddle with a sky map and a request to provide  length of the shortest path between planet 0 and 50.
 ![](img/2.png)
 
-How to find planet 0 and planet 50 and a path between them on a 134480-characters map? Let's run previous script using `constellations.txt`. It didn't go smoothly, probably beacause it is not a twice ASCII-decoded test. Removed second translation from script and I got a large graph, which 20% is shown on this screenshot:
-![](img/3.png). 
+How to find planet 0 and planet 50 and a path between them on a 134480-characters map? Let's run previous script using `constellations.txt`. It didn't go smoothly, probably beacause it is not a twice ASCII-decoded test. Removed second translation from script and I got a large graph, which ~20% is shown on this screenshot:
+![](img/3.png)
 
 Graph + finding the shortest path + Edsger from the plot = Dijkstra!
 
