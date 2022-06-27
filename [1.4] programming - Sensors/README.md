@@ -25,4 +25,4 @@ See some pattern, fist part is probably: I COME IN PEACE.
 
 Many refresh later, next part becomes clear:
 
-`I COME IN PEACE. TRY TO SECURE THE LANDING.
+FLAG: `I COME IN PEACE. TRY TO SECURE THE LANDING.`
