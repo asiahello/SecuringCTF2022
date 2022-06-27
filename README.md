@@ -6,7 +6,7 @@ Write-ups of CursedNova CTF challenges.
 | network     | Communication Breakdown | :heavy_check_mark: solved | :heavy_check_mark: uploaded | #pcap #WireShark  |
 | network     | Trademark               | :heavy_check_mark: solved | :heavy_check_mark: uploaded | #dns              |
 | network     | Cipher suite            | :x: unresolved            |                             |  |
-| misc        | Paint the sky           | :heavy_check_mark: solved |                             |  |
+| misc        | Paint the sky           | :heavy_check_mark: solved | :heavy_check_mark: uploaded | #encryption |
 | misc        | Message                 | :heavy_check_mark: solved | :heavy_check_mark: uploaded | #radio #steganography |
 | programming | Manual                  | :heavy_check_mark: solved |                             |  |
 | programming | Sensors                 | :heavy_check_mark: solved |                             |  |
