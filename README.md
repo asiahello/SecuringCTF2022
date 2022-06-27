@@ -10,7 +10,7 @@ Write-ups of CursedNova CTF challenges.
 | misc        | Message                 | :heavy_check_mark: solved | :heavy_check_mark: uploaded | #radio #steganography |
 | programming | Manual                  | :heavy_check_mark: solved |                             |  |
 | programming | Sensors                 | :heavy_check_mark: solved |                             |  |
-| programming | Navigation              | :heavy_check_mark: solved |                             |  |
+| programming | Navigation              | :heavy_check_mark: solved | :heavy_check_mark: uploaded | #algoritms #socket |
 | web         | Welcome to CursedNova   | :heavy_check_mark: solved |                             |  |
 | web         | Hidden Universe         | :heavy_check_mark: solved |                             |  |
 | web         | 1337                    | :heavy_check_mark: solved |                             |  |
